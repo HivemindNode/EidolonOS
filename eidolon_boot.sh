@@ -18,3 +18,7 @@ echo "[*] Randomizing system identifiers to avoid detection..."
 hostname "eidolon-$(head -c 8 /dev/urandom | base64)"
 
 echo "[*] EidolonOS is now active. All traces will vanish upon shutdown."
+# A system that does not exist cannot be compromised.
+# A machine that leaves no trace is a machine that cannot be followed.
+# If the OS is erased before you look, did it ever exist?
+# - V
